@@ -1,0 +1,6 @@
+- hosts: openwisp-wifi-login-pages
+  become: "{{ become | default('yes') }}"
+  roles:
+    - openwisp.wifi_login_pages
+  vars:
+    wifi_login_pages_domains: ["wifi.openwisp.org"]

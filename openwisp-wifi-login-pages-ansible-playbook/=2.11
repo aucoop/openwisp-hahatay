@@ -1,0 +1,7 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting Jinja
+  Downloading Jinja-1.2.tar.gz (252 kB)
+  Downloading Jinja-1.1.tar.gz (237 kB)
+  Downloading Jinja-1.0.tar.gz (120 kB)
+  Downloading Jinja-0.9.tar.gz (55 kB)
+  Downloading Jinja-0.8.tar.gz (55 kB)
