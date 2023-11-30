@@ -4,7 +4,12 @@
     - openwisp.openwisp2
   vars:
     openwisp2_default_from_email: "openwisp2@openwisp2.mydomain.com"
-    # in the playbook variables add:
+    openwisp2_radius: true
+    openwisp2_freeradius_install: true
+    # set to false when you don't want to register openwisp-radius
+    # API endpoints.
+    openwisp2_radius_urls: true
+    # in the playbook variables add if Server and Routers are in L2:
     openwisp2_extra_django_settings_instructions:
       - |
         OPENWISP_MONITORING_MANAGEMENT_IP_ONLY = False
