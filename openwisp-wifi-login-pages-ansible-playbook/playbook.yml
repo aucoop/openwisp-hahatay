@@ -1,6 +1,16 @@
 - hosts: openwisp-wifi-login-pages
   become: "{{ become | default('yes') }}"
+  tasks:
+    - name: Install acl
+      apt:
+        state: latest
+        update_cache: true
+        pkg:
+          - acl
+
   roles:
     - openwisp.wifi_login_pages
+
   vars:
     wifi_login_pages_domains: ["wifi.openwisp.org"]
+
