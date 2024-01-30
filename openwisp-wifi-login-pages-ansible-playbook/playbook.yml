@@ -12,5 +12,9 @@
     - openwisp.wifi_login_pages
 
   vars:
+<<<<<<< Updated upstream
     wifi_login_pages_domains: ["wifi.openwisp.org"]
 
+=======
+    wifi_login_pages_domains: ["openwisp.intranet-hahatay.org"]
+>>>>>>> Stashed changes
